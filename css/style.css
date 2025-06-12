@@ -1,11 +1,10 @@
 /* Colores base */
 :root {
---verde-principal: #4CAF50;
---verde-claro: #d4f6d6;
+--verde-principal: #226725;
 --gris-oscuro: #333333;
---gris-claro: #f1f1f1;
 --azul: #00796B;
 --blanco: #ffffff;
+--pastel: #FFF9E6;
 }
 
 /* Reset básico */
@@ -17,9 +16,9 @@ box-sizing: border-box;
 
 body {
 font-family: Arial, sans-serif;
-background-color: var(--gris-claro);
 color: var(--gris-oscuro);
 line-height: 1.6;
+background-color: #ffffff ;
 }
 
 /* Encabezado */
@@ -36,14 +35,26 @@ vertical-align: middle;
 
 /* Secciones */
 section {
-background-color: var(--verde-claro);
 margin: 20px 0;
 padding: 20px;
 border-radius: 8px;
+color: var(--gris-oscuro);
+
+}
+
+section p {
+font-size: 28px;
+}
+section h2 {font-size: 40px;}
+section ul,
+section ol,
+section li {
+font-size: 28px;
 }
 
 /* Títulos */
 h1, h2 {
+font-size: 40px;
 color: var(--verde-principal);
 margin-bottom: 10px;
 }
@@ -73,4 +84,13 @@ footer {
 text-align: center;
 background-color: var(--verde-principal);
 color: var(--blanco);
+}
+
+#que-hacemos {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#como-ayudar {
+  margin-left: 40px;
+  margin-right: 40px;
 }
