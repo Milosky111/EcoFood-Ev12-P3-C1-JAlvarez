@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>¿Quiénes somos?  -  EcoFood</title>
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <script>
+    fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+        });
+    </script>
+
+    <main class="container my-5">
+    <h1 class="mb-4">¿Quiénes somos?</h1>
+    <p>
+        EcoFood es una organización comprometida con la reducción del desperdicio alimentario mediante iniciativas educativas, tecnológicas y prácticas cotidianas. Nuestro propósito es promover un mundo más justo y sostenible, empoderando a las personas y comunidades para optimizar el uso de alimentos, minimizar residuos y proteger nuestro planeta.
+        Somos un equipo diverso formado por expertos en medio ambiente, tecnología y desarrollo comunitario, unidos por un propósito común: generar conciencia, educar y activar soluciones para enfrentar este desafío global.
+    </p>
+    <h1 class="mb-4">¿Qué hacemos?</h1>
+    <h2 class="mb-4">Educamos</h2> 
+    <p>
+        Ofrecemos materiales educativos gratuitos y talleres comunitarios para fomentar prácticas sostenibles en el consumo de alimentos.
+    </p>
+    <h2 class="mb-4">Conectamos</h2>
+    <p>
+        Promovemos alianzas entre productores, comerciantes, consumidores y comunidades para reducir excedentes y aprovechar al máximo los alimentos disponibles.
+    </p>
+    <h2 class="mb-4">Innovamos</h2>
+    <p>
+        Utilizamos la tecnología para desarrollar soluciones prácticas, como aplicaciones móviles, plataformas web y redes comunitarias que faciliten la reducción del desperdicio alimentario.
+    </p>
+    <h1 class="mb-4">Datos relevantes sobre la problemática:</h1>
+    <ul>
+        <li>1/3 de los alimentos producidos globalmente se desperdician (FAO, 2021).</li>
+        <li>El desperdicio alimentario genera aproximadamente 8-10% de las emisiones mundiales de gases de efecto invernadero.</li>
+        <li>Más de 820 millones de personas sufren inseguridad alimentaria en el mundo.</li>
+        <li>Reducir en solo un 25% el desperdicio alimentario global podría alimentar a 870 millones de personas.</li>
+    </ul>
+
+    </main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
