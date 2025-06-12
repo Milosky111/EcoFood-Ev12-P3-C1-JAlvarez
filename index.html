@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Inicio - EcoFood</title>
 </head>
 <body>
 <div id="navbar-placeholder"></div>
-    <!-- La Navbar fue modularizada para el proyecto -->
+    
     <script>
     fetch('navbar.html')
         .then(response => response.text())
@@ -16,5 +17,54 @@
         document.getElementById('navbar-placeholder').innerHTML = data;
         });
     </script>
+
+  <header>
+    <h1>EcoFood</h1>
+    <p>Comprometidos con reducir el desperdicio alimentario para un planeta más justo y sostenible</p>
+  </header>
+
+  <main>
+    <section id="quienes-somos">
+      <h2>¿Quiénes somos?</h2>
+      <p>EcoFood es una organización que trabaja para reducir el desperdicio alimentario a través de iniciativas educativas, tecnológicas y prácticas cotidianas. Nuestro propósito es promover un mundo más justo y sostenible, empoderando a personas y comunidades para optimizar el uso de alimentos, minimizar residuos y proteger el planeta.</p>
+      <p>Contamos con un equipo diverso de expertos en medio ambiente, tecnología y desarrollo comunitario, unidos por un objetivo común: generar conciencia, educar y activar soluciones para enfrentar este desafío global.</p>
+      <p><strong>Misión:</strong> Sensibilizar y movilizar comunidades locales y globales para reducir el desperdicio alimentario, ofreciendo herramientas prácticas, educativas y tecnológicas que permitan adoptar hábitos sostenibles y responsables para mejorar la seguridad alimentaria y proteger el medio ambiente.</p>
+      <p><strong>Visión:</strong> Un mundo donde los alimentos se valoren y aprovechen responsablemente, garantizando seguridad alimentaria para todos y minimizando el desperdicio, con un impacto positivo en el medio ambiente, economía y sociedad.</p>
+    </section>
+
+    <section id="que-hacemos">
+      <h2>¿Qué hacemos?</h2>
+      <ul>
+        <li><strong>Educamos:</strong> Materiales gratuitos y talleres comunitarios para fomentar prácticas sostenibles en el consumo de alimentos.</li>
+        <li><strong>Conectamos:</strong> Alianzas entre productores, comerciantes, consumidores y comunidades para reducir excedentes y aprovechar mejor los alimentos.</li>
+        <li><strong>Innovamos:</strong> Tecnología para desarrollar soluciones prácticas como apps, plataformas web y redes comunitarias que faciliten la reducción del desperdicio alimentario.</li>
+      </ul>
+    </section>
+
+    <section id="datos">
+      <h2>Datos relevantes</h2>
+      <ul>
+        <li>1/3 de los alimentos producidos globalmente se desperdician (FAO, 2021).</li>
+        <li>El desperdicio alimentario genera 8-10% de las emisiones mundiales de gases de efecto invernadero.</li>
+        <li>Más de 820 millones de personas sufren inseguridad alimentaria en el mundo.</li>
+        <li>Reducir el desperdicio alimentario global en un 25% podría alimentar a 870 millones de personas.</li>
+      </ul>
+    </section>
+    <img src="./assets/img_landpage/img_h2.png" class="img-fluid" alt="Imagen"> 
+    <section id="como-ayudar">
+      <h2>¿Cómo puedes ayudar?</h2>
+      <ul>
+        <li><strong>Consume responsablemente:</strong> Planifica tus compras y usa alimentos eficientemente.</li>
+        <li><strong>Apoya iniciativas locales:</strong> Compra productos locales y de temporada.</li>
+        <li><strong>Difunde conciencia:</strong> Comparte el impacto del desperdicio alimentario con tu comunidad.</li>
+        <li><strong>Participa:</strong> Únete a nuestras iniciativas y talleres para ser parte del cambio.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EcoFood - Desarrollado para Inacap por Jose Miguel Alvarez</p>
+  </footer>
+
 </body>
 </html>

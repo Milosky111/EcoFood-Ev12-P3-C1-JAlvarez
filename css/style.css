@@ -1,0 +1,76 @@
+/* Colores base */
+:root {
+--verde-principal: #4CAF50;
+--verde-claro: #d4f6d6;
+--gris-oscuro: #333333;
+--gris-claro: #f1f1f1;
+--azul: #00796B;
+--blanco: #ffffff;
+}
+
+/* Reset básico */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: var(--gris-claro);
+color: var(--gris-oscuro);
+line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+background-color: var(--verde-principal);
+color: var(--blanco);
+padding: 20px;
+text-align: center;
+}
+
+header img {
+vertical-align: middle;
+}
+
+/* Secciones */
+section {
+background-color: var(--verde-claro);
+margin: 20px 0;
+padding: 20px;
+border-radius: 8px;
+}
+
+/* Títulos */
+h1, h2 {
+color: var(--verde-principal);
+margin-bottom: 10px;
+}
+
+/* Listas */
+ul {
+padding-left: 20px;
+}
+
+li {
+margin-bottom: 10px;
+}
+
+/* Vinculos */
+a {
+color: var(--azul);
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+
+/* Pie de página */
+footer {
+text-align: center;
+background-color: var(--verde-principal);
+color: var(--blanco);
+}
