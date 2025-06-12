@@ -39,4 +39,4 @@ Incluye la estructura inicial del proyecto.
     * Instala la extensión "Live Server" desde VS Code.
     * Haz clic derecho en `index.html` y selecciona "Open with Live Server".
 
-    Alternativamente, también puedes abrir index.html directamente en tu navegador, pero la barra de navegación no se visualizará correctamente, ya que requiere ser cargada mediante Live Server o un entorno con servidor local.
+    Alternativamente, también puedes abrir `index.html` directamente en tu navegador (haz doble clic o clic derecho → “Abrir con”).
